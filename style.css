@@ -4,16 +4,51 @@
   box-sizing: border-box;
 }
 
-.intro {
-}
-
 .img {
   width: auto;
   height: 200px;
 }
 
 .te {
+  /* display: flex; */
+  /* justify-content: center; */
   display: flex;
-  justify-content: center;
-  vertical-align: bottom;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn {
+  /*BTN Styles*/
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: plum;
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-weight: 800;
+  font-weight: bold;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: grab;
+}
+
+button:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+button:active {
+  color: #fff;
+  background-color: plum !important;
+}
+
+.btn-cont {
+  text-align: center;
 }
