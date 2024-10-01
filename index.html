@@ -15,58 +15,73 @@
           alt="regular-show-font"
           border="0"
       /></a>
+      <div id="result_text">Result:</div>
       <!-- <h3 class="sub-h">
         Mordecai and Rigby are playing rock paper scissors for a brown chair.
         Play as Mordecai and do your best to win the chair!
       </h3> -->
     </div>
-
-    <div class="mano">
-      <button onclick="playGame(0)">Rock</button>
-      <button onclick="playGame(1)">Paper</button>
-      <button onclick="playGame(2)">Scissors</button>
+    <div class="top">
+      <div class="you">
+        <img class="icon-m" src="m-win.png" />
+      </div>
+      <div id="p_choice">You chose:</div>
     </div>
 
-    <div id="p_choice">You chose:</div>
+    <div class="img-cont">
+      <p><img id = "jk1" src = "ppt.png"</p>
+    </div>
+
+    <div class="mano">
+      <button onclick="playGame(0)">
+        <a href="#"
+          ><img
+            src="https://fontmeme.com/permalink/241001/0631c40ca78ccb58260346d25072e0c9.png"
+            alt="regular-show-font"
+            border="0"
+        /></a>
+      </button>
+      <button onclick="playGame(1)">
+        <a href="#"
+          ><img
+            src="https://fontmeme.com/permalink/241001/40ede5d053cb8e2686a0360492568415.png"
+            alt="regular-show-font"
+            border="0"
+        /></a>
+      </button>
+      <button onclick="playGame(2)">
+        <a href="#"
+          ><img
+            src="https://fontmeme.com/permalink/241001/63243db9c940605f82ff298e66a238c3.png"
+            alt="regular-show-font"
+            border="0"
+        /></a>
+      </button>
+    </div>
+    <br />
+    <div class="img-cont">
+      <p><img id = "jk2" src = "ppt.png"</p>
+    </div>
+
+    <!-- <div id="p_choice">You chose:</div> -->
     <div id="com_choice">The computer chose</div>
-    <div id="result_text">Result:</div>
+    <!-- <div id="result_text">Result:</div> -->
     <div id="score">Player: 0 | Computer: 0 | Ties: 0</div>
 
     <script src="js.js"></script>
 
     <!-- /* for later use
     
-        <div class="mano">
-          <div class="te rock">
-            <img class="img" src="janken_gu.png" alt="rock" />
-            <div class="btn-cont">
-              <button onclick="playGame(0);">Rock</button>
-            </div>
-          </div>
-    
-          <div class="te paper">
-            <img class="img" src="janken_pa.png" alt="paper" />
-            <div class="btn-cont">
-              <button onclick="playGame(1);">Paper</button>
-            </div>
-          </div>
-    
-          <div class="te scissors">
-            <img class="img" src="janken_choki.png" alt="scissors" />
-            <div class="btn-cont">
-              <button onclick="playGame(2);" ;>Scissors</button>
-            </div>
-          </div>
-        </div>
-    <div class="opponent">
+      
+    <!-- <div class="opponent">
       <img class="icon-r" src="r-lose.png" />
       <div class="opp-score">Rigby's Score: 1</div>
-      <script src="js.js"></script>
-
+      <script src="js.js"></script> 
+    
       <div class="you">
         <img class="icon-m" src="m-win.png" />
-        <div class="opp-score">Your Score: 1</div>
       </div>
-    </div> -->
+    
+    -->
   </body>
 </html>

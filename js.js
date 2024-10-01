@@ -8,14 +8,11 @@ const result_text = document.getElementById("result_text");
 const score = document.getElementById("score");
 
 {
-  /* <div id="p_choice">You chose:</div>
-    <div id="com_choice">The computer chose:</div>
-    <div id="result_text">Draw</div> */
 }
 
 function playGame(p_hands) {
   com_hands = Math.floor(Math.random() * 3);
-  let hands = ["rock", "paper", "scissors"];
+  let hands = ["Rock", "Paper", "Scissors"];
   let result = "";
 
   p_choice.innerHTML = `You chose: ${hands[p_hands]}`;
@@ -38,6 +35,8 @@ function playGame(p_hands) {
     p_score++;
   }
 
+  document.getElementById("jk1").src = "ppt" + com_hands + ".png";
+  document.getElementById("jk2").src = "ppt" + p_hands + ".png";
   result_text.innerHTML = `Result: ${result}`;
   score.innerHTML = `Player: ${p_score} | Computer: ${com_score} | Ties: ${tie}`;
 }
