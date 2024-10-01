@@ -15,44 +15,58 @@
           alt="regular-show-font"
           border="0"
       /></a>
-      <h3 class="sub-h">
-        Mordecai and Rigby are playing rock paper for a brown chair. Play as
-        Mordecai and do your best to with the chair!
-      </h3>
-    </div>
-    <div class="you">
-      <img class="icon-m" src="m-win.png" />
-      <div class="opp-score">Your Score: 1</div>
+      <!-- <h3 class="sub-h">
+        Mordecai and Rigby are playing rock paper scissors for a brown chair.
+        Play as Mordecai and do your best to win the chair!
+      </h3> -->
     </div>
 
     <div class="mano">
-      <div class="te rock">
-        <img class="img" src="janken_gu.png" alt="rock" />
-        <div class="btn-cont">
-          <button class="btn btn--r">Rock</button>
-        </div>
-      </div>
-
-      <div class="te paper">
-        <img class="img" src="janken_pa.png" alt="paper" />
-        <div class="btn-cont">
-          <button class="btn btn--p">Paper</button>
-        </div>
-      </div>
-
-      <div class="te scissors">
-        <img class="img" src="janken_choki.png" alt="scissors" />
-        <div class="btn-cont">
-          <button class="btn btn--s">Scissors</button>
-        </div>
-      </div>
+      <button onclick="playGame(0)">Rock</button>
+      <button onclick="playGame(1)">Paper</button>
+      <button onclick="playGame(2)">Scissors</button>
     </div>
 
+    <div id="p_choice">You chose:</div>
+    <div id="com_choice">The computer chose</div>
+    <div id="result_text">Result:</div>
+    <div id="score">Player: 0 | Computer: 0 | Ties: 0</div>
+
+    <script src="js.js"></script>
+
+    <!-- /* for later use
+    
+        <div class="mano">
+          <div class="te rock">
+            <img class="img" src="janken_gu.png" alt="rock" />
+            <div class="btn-cont">
+              <button onclick="playGame(0);">Rock</button>
+            </div>
+          </div>
+    
+          <div class="te paper">
+            <img class="img" src="janken_pa.png" alt="paper" />
+            <div class="btn-cont">
+              <button onclick="playGame(1);">Paper</button>
+            </div>
+          </div>
+    
+          <div class="te scissors">
+            <img class="img" src="janken_choki.png" alt="scissors" />
+            <div class="btn-cont">
+              <button onclick="playGame(2);" ;>Scissors</button>
+            </div>
+          </div>
+        </div>
     <div class="opponent">
       <img class="icon-r" src="r-lose.png" />
       <div class="opp-score">Rigby's Score: 1</div>
-    </div>
+      <script src="js.js"></script>
 
-    <script src="js.js"></script>
+      <div class="you">
+        <img class="icon-m" src="m-win.png" />
+        <div class="opp-score">Your Score: 1</div>
+      </div>
+    </div> -->
   </body>
 </html>

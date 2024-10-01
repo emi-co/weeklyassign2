@@ -40,7 +40,7 @@
   height: 200px;
 }
 
-.btn {
+button {
   /*BTN Styles*/
   border-radius: 8px;
   border-style: none;
@@ -85,13 +85,13 @@ button:active {
 }
 
 .icon-m {
-  padding: 10px;
+  padding-top: 3px;
   background-color: rgb(103, 166, 224);
 }
 
 .icon-r {
   background-color: rgb(58, 39, 21);
-  border-radius: 500px;
-  padding: 30px;
+  border-radius: 1000px;
+  padding-top: 50px;
   height: 250px;
 }
