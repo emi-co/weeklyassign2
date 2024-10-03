@@ -21,13 +21,13 @@ function playGame(p_hands) {
   if (com_hands === p_hands) {
     result = "Draw";
     tie++;
-  } else if (com_hands === 0 && p_hands === 1) {
+  } else if (com_hands === 1 && p_hands === 0) {
     result = "You lose";
     com_score++;
-  } else if (com_hands === 1 && p_hands === 2) {
+  } else if (com_hands === 2 && p_hands === 1) {
     result = "You lose";
     com_score++;
-  } else if (com_hands === 2 && p_hands === 0) {
+  } else if (com_hands === 0 && p_hands === 2) {
     result = "You lose";
     com_score++;
   } else {
